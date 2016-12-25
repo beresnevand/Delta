@@ -608,9 +608,9 @@ on this endstop.
 #define ENDSTOP_X_MIN_INVERTING true
 #define ENDSTOP_Y_MIN_INVERTING true
 #define ENDSTOP_Z_MIN_INVERTING true
-#define ENDSTOP_X_MAX_INVERTING false
-#define ENDSTOP_Y_MAX_INVERTING false
-#define ENDSTOP_Z_MAX_INVERTING false
+#define ENDSTOP_X_MAX_INVERTING true
+#define ENDSTOP_Y_MAX_INVERTING true
+#define ENDSTOP_Z_MAX_INVERTING true
 
 // Set the values true where you have a hardware endstop. The Pin number is taken from pins.h.
 
@@ -784,7 +784,8 @@ new DELTA_DIAGONAL_ROD = 100 / measured_length * original DELTA_DIAGONAL_ROD
 Repair concavity or convexity of the bed
 */
 //#define PRINTER_RADIUS 175
-#define PRINTER_RADIUS 140.15
+//#define PRINTER_RADIUS 140.15
+#define PRINTER_RADIUS 133
 
 /** Remove comment for more precise delta moves. Needs a bit more computation time. */
 //#define EXACT_DELTA_MOVES
