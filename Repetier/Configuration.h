@@ -785,7 +785,7 @@ Repair concavity or convexity of the bed
 */
 //#define PRINTER_RADIUS 175
 //#define PRINTER_RADIUS 140.15
-#define PRINTER_RADIUS 133
+#define PRINTER_RADIUS 161.65
 
 /** Remove comment for more precise delta moves. Needs a bit more computation time. */
 //#define EXACT_DELTA_MOVES
